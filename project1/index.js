@@ -1,1 +1,3 @@
-Reactdom.render(<h1>Hello everyone I am Pradeep</h1>, document.getElementById("root"))
+
+
+ReactDOM.render(<h1>Hii, my name is Pradeep</h1>, document.getElementById("root"))
