@@ -1,0 +1,1 @@
+ReactDOM.render(<ul><li>Section 1</li><li>Section 2</li><li>Section 3</li></ul>, document.getElementById("root"))
