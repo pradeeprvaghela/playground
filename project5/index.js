@@ -39,9 +39,8 @@ const Navbar = () => (
     </div>
 )
 
-const element = <h1 className="header">start of learning JSX</h1>
 
-ReactDOM.render(element, document.getElementById("app"))
+ReactDOM.render(<h1 className="header">start of learning JSX</h1>, document.getElementById("app"))
 
 ReactDOM.render((
     <div>
