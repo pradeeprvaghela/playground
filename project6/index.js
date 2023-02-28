@@ -63,18 +63,22 @@ const Navbar = () => (
 </div>
 )
 
+const Information = (
+    (
+        <div>
+            <h1 className="header"><u>Ninja </u></h1>
+            <h2 className="header2">super bikes company</h2>
+            <h3 className="header3">Its all about speed</h3>
+            <p> To explors yourself with machines and to explore world with us</p>
+    
+        </div>
+    )
+)
+
 ReactDOM.render((
     <div>
         <Navbar />
     </div>
 ), document.getElementById("p5"))
 
-ReactDOM.render((
-    <div>
-        <h1 className="header"><u>Ninja </u></h1>
-        <h2 className="header2">super bikes company</h2>
-        <h3 className="header3">Its all about speed</h3>
-        <p> To explors yourself with machines and to explore world with us</p>
-
-    </div>
-), document.getElementById("app"))
+ReactDOM.render(Information, document.getElementById("app"))
